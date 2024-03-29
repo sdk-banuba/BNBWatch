@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.11.1-70-g9084b7e01b"
+let bnbPackageVersion: Version = "1.11.1-1-ge047381c9"
 
 let package = Package(
     name: "BNBWatch",
@@ -36,8 +36,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBWatch",
-            url: "None",
-            checksum: "d4bc2cbfa34b4e1f03b7f8c443a5e9db20f2e3ca5b10089655ea7ba9fe7117ac"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.11.1-1-ge047381c9/BNBWatch.zip",
+            checksum: "6bd8705b39b9c606aaae70a55d7f4cdae02b74baba3179bbf8aa86e15e0be668"
         ),
         .target(
             name: "BNBWatch_BNBSdkCore",
