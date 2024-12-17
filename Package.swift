@@ -37,7 +37,7 @@ let package = Package(
         .binaryTarget(
             name: "BNBWatch",
             url: "https://d2cm7wtcqqw29.cloudfront.net/1.16.3/BNBWatch.zip",
-            checksum: "15f690c2f8c11fc1cf94fee1667a6b1d8e6cd7c4722bb7e4ad98fe5f1aafbd56"
+            checksum: "2c5c64ea5853241d20a786675e3b05c8f9f08f99a95ab32d9c7e13e02bc9923f"
         ),
         .target(
             name: "BNBWatch_BNBSdkCore",
